@@ -65,7 +65,7 @@ const FormSignup = ({submitForm}) => {
                     />
                     {errors.password2 && <p>{errors.password2}</p>}
                 </div>
-                <button className="form-input-bin" type="submit">
+                <button className="form-input-btn " type="submit">
                     Sign Up
                 </button>
                 <span className="form-input-login">
